@@ -18,7 +18,7 @@ A fully functional Todo application built using HTML, CSS, and JavaScript.
 
 ## Live Demo
 
-[To-Do-AppLive_Demo](https://github.com/subho8235-rizu/To-Do-App)
+[To-Do-AppLive_Demo](https://subho8235-rizu.github.io/To-Do-App/)
 
 ## 📸 Screenshot
 
