@@ -1,0 +1,64 @@
+body{
+    font-family: Arial;
+    background-color: #0f172a;
+    height: 100vh; /*Full screen*/
+    color:white;
+    display:flex;
+    align-items: center;/*vertical center*/
+    justify-content: center; /*horizontal center*/
+
+}
+.container{
+    padding: 60px;
+    background-color: #1e293b;
+    text-align: center;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+input{
+    padding: 10px;
+    width:200px;
+}
+button{
+    padding: 10px;
+
+    border-radius: 10px;
+    cursor:pointer;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
+.delBtn{
+    background: red;
+    color: white;
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+    margin-left: 10px;
+    border-radius:50%;
+}
+.filters button{
+    margin: 5px;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.completed{
+    text-decoration: line-through;
+    color:gray;
+}
+li{
+    display: flex; /*Sob ke ek dike niye aasa*/
+    justify-content: space-between;/*task aar button er majhe space dewa*/
+    align-items: center;
+    background: #334155;
+    padding: 10px;/*gap between tasks*/
+    border-radius: 8px;
+    margin-top: 10px;
+}
+li:hover{
+    background: #475569;
+}
